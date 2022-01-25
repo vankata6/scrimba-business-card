@@ -19,6 +19,7 @@ body {
 img {
   width: 317px;
   height: 317px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .main-name {
@@ -70,4 +71,24 @@ p {
   font-size: 10px;
   font-weight: 400;
   line-height: 150%;
+}
+
+.footer {
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.fa {
+  background: #918E9B;
+  color: #161619;
+  margin: 19.5 0 19.5 35;
+  padding: 3 3 3 3;
+}
+
+.fa-facebook {
+  padding: 3 5 3 5;
 }
