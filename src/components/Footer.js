@@ -2,7 +2,13 @@ import React from "react";
 
 function Footer() {
     return(
-        <h1>This is the footer.</h1>
+        <>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+        </>
     )
 }
 

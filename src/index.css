@@ -1,5 +1,52 @@
 body {
   margin: 0;
+  font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  padding-left: 30%;
+  padding-right: 40%;
+}
+
+img {
+  width: 317px;
+  height: 317px;
+}
+
+.main-name {
+  padding-top: 15px;
+  margin: auto;
+  width: 50%;
+  font-weight: 700;
+}
+
+.main-occupation {
+  padding-top: 6px;
+  margin: auto;
+  width: 45%;
+  font-weight: 400;
+}
+
+.main-site {
+  padding-top: 8px;
+  margin: auto;
+  width: 57%;
+  font-weight: 400;
+}
+
+.main-mail-button {
+  width: 247px;
+  margin: 16px 0 0 35px;
+}
+
+section {
+  width: 247px;
+  margin-left: 35px;
+}
+
+p {
+  font-size: 10px;
+  font-weight: 400;
 }

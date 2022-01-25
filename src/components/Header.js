@@ -1,8 +1,9 @@
 import React from "react";
+import picture from '../images/profile-1.jpg';
 
 function Header() {
     return(
-        <h1 className="header">This is a header.</h1>
+        <img src={picture}/>
     )
 }
 
