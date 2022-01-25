@@ -38,6 +38,10 @@ img {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-site {
   color: #F5F5F5;
   padding-top: 8px;

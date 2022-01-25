@@ -6,11 +6,13 @@ function Main() {
         <div className="main">
             <h2 className="main-name">Ivan Kolev</h2>
             <h5 className="main-occupation">Web developer</h5>
-            <h6 className="main-site">https://github.com/vankata6</h6>
-            <button className="main-mail-button">
-                <HiMail className="main-mail-icon"/>
-                Email
-            </button>
+            <a href="//github.com/vankata6"><h6 className="main-site">https://github.com/vankata6</h6></a>
+            <a href="mailto: ikkolev95@gmail.com">
+                <button className="main-mail-button">
+                    <HiMail className="main-mail-icon"/>
+                    Email
+                </button>
+            </a>
             <section>
                 <h3>About</h3>
                 <p>I am a frontend developer with a particular interest <br/> 
