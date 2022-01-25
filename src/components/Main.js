@@ -1,4 +1,5 @@
 import React from "react";
+import { HiMail } from "react-icons/hi";
 
 function Main() {
     return(
@@ -6,7 +7,10 @@ function Main() {
             <h2 className="main-name">Ivan Kolev</h2>
             <h5 className="main-occupation">Web developer</h5>
             <h6 className="main-site">https://github.com/vankata6</h6>
-            <button className="main-mail-button">Email</button>
+            <button className="main-mail-button">
+                <HiMail className="main-mail-icon"/>
+                Email
+            </button>
             <section>
                 <h3>About</h3>
                 <p>I am a frontend developer with a particular interest <br/> 
